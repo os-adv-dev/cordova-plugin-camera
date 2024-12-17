@@ -50,7 +50,6 @@
     <platform name="android">
 
         <hook type="after_plugin_install" src="hooks/AndroidManifestPatcher.js" />
-        <dependency id="com.outsystems.experts.androidxfix" url="https://github.com/os-adv-dev/cordova-plugin-androidx-fix.git"/>
       
         <config-file target="res/xml/config.xml" parent="/*">
 
@@ -111,7 +110,7 @@
         <framework src="androidx.constraintlayout:constraintlayout:2.0.4" />
         <framework src="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.3" />
         <framework src="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3" />
-        
+        <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
 
       </platform>
 

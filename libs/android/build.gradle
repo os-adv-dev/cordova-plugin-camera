@@ -34,7 +34,9 @@ dependencies {
   implementation("com.github.outsystems:oscordova-android:1.1.0@aar")
 
   // For the current aar version - see https://github.com/OutSystems/OSCameraLib-Android/tree/feat/RMET-2809/camerax-implementation-experts
-  implementation files("libs/OSCameraLib.aar")
+  //implementation files("libs/OSCameraLib.aar")
+  implementation files("libs/OSCameraLib-v1.2.0.aar")
+
 
   def camerax_version = "1.4.2"
   implementation "androidx.camera:camera-core:${camerax_version}"

@@ -109,7 +109,7 @@
         <framework src="androidx.constraintlayout:constraintlayout:2.0.4" />
         <framework src="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.3" />
         <framework src="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3" />
-        <lib-file src="libs/android/OSCameraLib.aar" target="libs/OSCameraLib.aar" />
+        <lib-file src="libs/android/OSCameraLib-v1.2.0.aar" target="libs/OSCameraLib-v1.2.0.aar" />
 
       </platform>
 
